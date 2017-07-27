@@ -1,24 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.intelisoft.exercise-jdbc</groupId>
-	<artifactId>exercise-jdbc</artifactId>
+	<groupId>com.intelisoft.exercise-hibernate4</groupId>
+	<artifactId>exercise-hibernate4</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
 
 	<modules>
-		<module>exercise-jdbc-api</module>
-		<module>exercise-jdbc-dao</module>
-		<module>exercise-jdbc-util</module>
-		<module>exercise-jdbc-service</module>
-		<module>exercise-jdbc-model</module>
-		<module>exercise-jdbc-app</module>
+		<module>exercise-hibernate4-api</module>
+		<module>exercise-hibernate4-dao</module>
+		<module>exercise-hibernate4-util</module>
+		<module>exercise-hibernate4-service</module>
+		<module>exercise-hibernate4-model</module>
+		<module>exercise-hibernate4-app</module>
 	</modules>
 
 	<properties>
 		<java-version>1.8</java-version>
 		<mySQL-jdbc-version>6.0.6</mySQL-jdbc-version>
 		<log4j-version>1.2.17</log4j-version>
+		<hibernate-core-version>4.3.11.Final</hibernate-core-version>
 	</properties>
 
 	<dependencies>
